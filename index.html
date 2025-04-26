@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>دليل المضيبي</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri&display=swap">
   <style>
     body {
       font-family: 'Amiri', serif;
@@ -16,165 +17,163 @@
       background-color: #a67c52;
       color: white;
       text-align: center;
-      padding: 50px 20px;
-    }
-    header h1 {
-      font-size: 40px;
-      margin: 0;
+      padding: 40px 20px;
     }
     .container {
-      padding: 40px;
       max-width: 1200px;
       margin: auto;
+      padding: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      background-color: #fff;
+      width: 45%;
+      height: 220px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      display: flex;
+      transition: transform 0.3s ease;
+      text-decoration: none;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 50%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 20px;
+      background-color: #fff1ee;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .card-content h2 {
+      color: darkred;
+      margin: 0;
+    }
+    .card-content p {
+      color: #a03c3c;
     }
     footer {
       text-align: center;
-      padding: 20px;
-      font-size: 14px;
+      padding: 15px;
       background-color: #f2dfcc;
       color: #5a4030;
-      margin-top: 60px;
+      margin-top: 40px;
+    }
+    a.button {
+      background-color: #8b6440;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 20px;
+      display: inline-block;
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>المضيبي... عبق المكان ودهشة الاكتشاف</h1>
+    <a href="contact.html" class="button">✉️ اتصل بنا</a>
   </header>
 
-  
-    <div style="text-align: center; margin: 20px;">
-      <a href="contact.html" style="text-decoration: none; background-color: #a67c52; color: white; padding: 12px 24px; font-size: 18px; border-radius: 8px;">
-        ✉️ اتصل بنا
-      </a>
-    </div>
-    <div class="container">
-    
-    <div style="display: flex; gap: 30px; margin-bottom: 40px;">
-            <a href="coffee_with_home_button.html" style="flex: 1; text-decoration: none;">
-              <div style="display: flex; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background-color: #fff; height: 260px;">
-                <div style="flex: 1; background-color: #fff1ee; padding: 40px; display: flex; flex-direction: column; justify-content: center;">
-                  <h2 style="color: darkred; font-size: 28px; margin: 0 0 10px;">المقاهي</h2>
-                  <p style="color: #a03c3c; font-size: 18px; line-height: 1.6;">رشفات دافئة في زوايا تعبق برائحة اللقاء</p>
-                </div>
-                <div style="flex: 1;">
-                  <img src="https://images.unsplash.com/photo-1610632380989-680fe40816c6?w=1200&auto=format&fit=crop&q=80" alt="المقاهي" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-              </div>
-            </a>
-            
-            <a href="libraries_with_image.html" style="flex: 1; text-decoration: none;">
-              <div style="display: flex; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background-color: #fff; height: 260px;">
-                <div style="flex: 1; background-color: #fff1ee; padding: 40px; display: flex; flex-direction: column; justify-content: center;">
-                  <h2 style="color: darkred; font-size: 28px; margin: 0 0 10px;">المكتبات</h2>
-                  <p style="color: #a03c3c; font-size: 18px; line-height: 1.6;">رفوف من نور... حيث تنام الحروف وتصحو الأرواح</p>
-                </div>
-                <div style="flex: 1;">
-                  <img src="https://images.unsplash.com/photo-1614849963640-9cc74b2a826f?q=80&w=1200&auto=format&fit=crop" alt="المكتبات" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-              </div>
-            </a>
-            </div><div style="display: flex; gap: 30px; margin-bottom: 40px;">
-            <a href="resturants.html" style="flex: 1; text-decoration: none;">
-              <div style="display: flex; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background-color: #fff; height: 260px;">
-                <div style="flex: 1; background-color: #fff1ee; padding: 40px; display: flex; flex-direction: column; justify-content: center;">
-                  <h2 style="color: darkred; font-size: 28px; margin: 0 0 10px;">المطاعم</h2>
-                  <p style="color: #a03c3c; font-size: 18px; line-height: 1.6;">توابل من الزمن العماني... ومذاق لا يُنسى</p>
-                </div>
-                <div style="flex: 1;">
-                  <img src="https://images.unsplash.com/photo-1553621042-f6e147245754?q=80&w=1200&auto=format&fit=crop" alt="المطاعم" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-              </div>
-            </a>
-            
-            <a href="masjed.html" style="flex: 1; text-decoration: none;">
-              <div style="display: flex; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background-color: #fff; height: 260px;">
-                <div style="flex: 1; background-color: #fff1ee; padding: 40px; display: flex; flex-direction: column; justify-content: center;">
-                  <h2 style="color: darkred; font-size: 28px; margin: 0 0 10px;">المساجد</h2>
-                  <p style="color: #a03c3c; font-size: 18px; line-height: 1.6;">طمأنينة المكان ونداء السماء</p>
-                </div>
-                <div style="flex: 1;">
-                  <img src="بلا عنوان.jpg" alt="المساجد" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-              </div>
-            </a>
-            </div><div style="display: flex; gap: 30px; margin-bottom: 40px;">
-            <a href="clinics_updated.html" style="flex: 1; text-decoration: none;">
-              <div style="display: flex; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background-color: #fff; height: 260px;">
-                <div style="flex: 1; background-color: #fff1ee; padding: 40px; display: flex; flex-direction: column; justify-content: center;">
-                  <h2 style="color: darkred; font-size: 28px; margin: 0 0 10px;">العيادات</h2>
-                  <p style="color: #a03c3c; font-size: 18px; line-height: 1.6;">العناية التي تلامس القلوب قبل الأجساد</p>
-                </div>
-                <div style="flex: 1;">
-                  <img src="https://images.unsplash.com/photo-1588776814546-ec7c04ff57ec?q=80&w=1200&auto=format&fit=crop" alt="العيادات" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-              </div>
-            </a>
-            
-            <a href="history_place_updated.html" style="flex: 1; text-decoration: none;">
-              <div style="display: flex; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background-color: #fff; height: 260px;">
-                <div style="flex: 1; background-color: #fff1ee; padding: 40px; display: flex; flex-direction: column; justify-content: center;">
-                  <h2 style="color: darkred; font-size: 28px; margin: 0 0 10px;">المعالم التاريخية</h2>
-                  <p style="color: #a03c3c; font-size: 18px; line-height: 1.6;">حكايات من الطين والحجر... تحفظها الذاكرة</p>
-                </div>
-                <div style="flex: 1;">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Bahla_fort.jpg" alt="المعالم التاريخية" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-              </div>
-            </a>
-            </div><div style="display: flex; gap: 30px; margin-bottom: 40px;">
-            <a href="souq.html" style="flex: 1; text-decoration: none;">
-              <div style="display: flex; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background-color: #fff; height: 260px;">
-                <div style="flex: 1; background-color: #fff1ee; padding: 40px; display: flex; flex-direction: column; justify-content: center;">
-                  <h2 style="color: darkred; font-size: 28px; margin: 0 0 10px;">الأسواق</h2>
-                  <p style="color: #a03c3c; font-size: 18px; line-height: 1.6;">بين الأزقة... تنبض الحياة بصوت الباعة والعطر</p>
-                </div>
-                <div style="flex: 1;">
-                  <img src="https://images.unsplash.com/photo-1588612344510-027b89ec4c44?q=80&w=1200&auto=format&fit=crop" alt="الأسواق" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-              </div>
-            </a>
-            
-            <a href="places_special.html" style="flex: 1; text-decoration: none;">
-              <div style="display: flex; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background-color: #fff; height: 260px;">
-                <div style="flex: 1; background-color: #fff1ee; padding: 40px; display: flex; flex-direction: column; justify-content: center;">
-                  <h2 style="color: darkred; font-size: 28px; margin: 0 0 10px;">أماكن ذات طابع خاص</h2>
-                  <p style="color: #a03c3c; font-size: 18px; line-height: 1.6;">فضاءات لا تُشبه سواها... طبيعة تنفرد بسحرها</p>
-                </div>
-                <div style="flex: 1;">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Wadi_Bani_Khalid_Oman.jpg" alt="أماكن ذات طابع خاص" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-              </div>
-            </a>
-            </div><div style="display: flex; gap: 30px; margin-bottom: 40px;">
-            <a href="police_center_updated.html" style="flex: 1; text-decoration: none;">
-              <div style="display: flex; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background-color: #fff; height: 260px;">
-                <div style="flex: 1; background-color: #fff1ee; padding: 40px; display: flex; flex-direction: column; justify-content: center;">
-                  <h2 style="color: darkred; font-size: 28px; margin: 0 0 10px;">مراكز الشرطة</h2>
-                  <p style="color: #a03c3c; font-size: 18px; line-height: 1.6;">الأمان الذي يُرى ويُشعر به</p>
-                </div>
-                <div style="flex: 1;">
-                  <img src="https://www.wa-gulf.com/wp-content/uploads/2022/04/1341F4AB-9E66-4D3F-9476-725E00E10678.png" alt="مراكز الشرطة" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-              </div>
-            </a>
-            
-            <a href="banks.html" style="flex: 1; text-decoration: none;">
-              <div style="display: flex; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background-color: #fff; height: 260px;">
-                <div style="flex: 1; background-color: #fff1ee; padding: 40px; display: flex; flex-direction: column; justify-content: center;">
-                  <h2 style="color: darkred; font-size: 28px; margin: 0 0 10px;">البنوك</h2>
-                  <p style="color: #a03c3c; font-size: 18px; line-height: 1.6;">حيث تلتقي الأرقام بالأحلام</p>
-                </div>
-                <div style="flex: 1;">
-                  <img src="https://images.unsplash.com/photo-1605902711622-cfb43c4437d1?q=80&w=1200&auto=format&fit=crop" alt="البنوك" style="width: 100%; height: 100%; object-fit: cover;">
-                </div>
-              </div>
-            </a>
-            </div>
+  <div class="container">
+
+    <a href="coffee_with_home_button.html" class="card">
+      <img src="https://images.unsplash.com/photo-1610632380989-680fe40816c6?w=1200&auto=format&fit=crop&q=80" alt="المقاهي">
+      <div class="card-content">
+        <h2>المقاهي</h2>
+        <p>رشفات دافئة في زوايا تعبق برائحة اللقاء</p>
+      </div>
+    </a>
+
+    <a href="libraries_with_image.html" class="card">
+      <img src="https://images.unsplash.com/photo-1614849963640-9cc74b2a826f?q=80&w=1200&auto=format&fit=crop" alt="المكتبات">
+      <div class="card-content">
+        <h2>المكتبات</h2>
+        <p>رفوف من نور... حيث تنام الحروف وتصحو الأرواح</p>
+      </div>
+    </a>
+
+    <a href="resturants.html" class="card">
+      <img src="https://images.unsplash.com/photo-1553621042-f6e147245754?q=80&w=1200&auto=format&fit=crop" alt="المطاعم">
+      <div class="card-content">
+        <h2>المطاعم</h2>
+        <p>توابل من الزمن العماني... ومذاق لا يُنسى</p>
+      </div>
+    </a>
+
+    <a href="masjed.html" class="card">
+      <img src="https://github.com/hamidatourism/mudhaibi/blob/main/%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%AC%D8%AF.jpg?raw=true" alt="المساجد">
+      <div class="card-content">
+        <h2>المساجد</h2>
+        <p>طمأنينة المكان ونداء السماء</p>
+      </div>
+    </a>
+
+    <a href="clinics_updated.html" class="card">
+      <img src="https://github.com/hamidatourism/mudhaibi/blob/main/%D8%A7%D9%84%D8%B9%D9%8A%D8%A7%D8%AF%D8%A7%D8%AA.jpg?raw=true" alt="العيادات">
+      <div class="card-content">
+        <h2>العيادات</h2>
+        <p>العناية التي تلامس القلوب قبل الأجساد</p>
+      </div>
+    </a>
+
+    <a href="souq.html" class="card">
+      <img src="https://admango.cdn.mangomolo.com/analytics/uploads/168/64200b1d7f.jpg" alt="الأسواق">
+      <div class="card-content">
+        <h2>الأسواق</h2>
+        <p>بين الأزقة... تنبض الحياة بصوت الباعة والعطر</p>
+      </div>
+    </a>
+
+    <a href="history_place_updated.html" class="card">
+      <img src="https://shabiba.eu-central-1.linodeobjects.com/2018/01/24/812749.JPG" alt="المعالم التاريخية">
+      <div class="card-content">
+        <h2>المعالم التاريخية</h2>
+        <p>حكايات من الطين والحجر... تحفظها الذاكرة</p>
+      </div>
+    </a>
+
+    <a href="places_special.html" class="card">
+      <img src="https://pbs.twimg.com/media/FVY9CNEX0AAwbf9.jpg:large" alt="أماكن ذات طابع خاص">
+      <div class="card-content">
+        <h2>أماكن ذات طابع خاص</h2>
+        <p>فضاءات لا تُشبه سواها... طبيعة تنفرد بسحرها</p>
+      </div>
+    </a>
+
+    <a href="banks.html" class="card">
+      <img src="https://tbywordpress.s3.eu-west-2.amazonaws.com/wp-content/uploads/2022/08/06225121/050_4914_01_b.jpg" alt="البنوك">
+      <div class="card-content">
+        <h2>البنوك</h2>
+        <p>حيث تلتقي الأرقام بالأحلام</p>
+      </div>
+    </a>
+
+    <a href="police_center_updated.html" class="card">
+      <img src="https://www.wa-gulf.com/wp-content/uploads/2022/04/1341F4AB-9E66-4D3F-9476-725E00E10678.png" alt="مراكز الشرطة">
+      <div class="card-content">
+        <h2>مراكز الشرطة</h2>
+        <p>الأمان الذي يُرى ويُشعر به</p>
+      </div>
+    </a>
+
   </div>
 
   <footer>
     جميع الحقوق محفوظة &copy; 2025 - دليل المضيبي السياحي
   </footer>
+
 </body>
 </html>
